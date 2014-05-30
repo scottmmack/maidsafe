@@ -213,6 +213,17 @@ Fonts
     font-style: normal;
 
 }
+@font-face {
+        font-family: "Dax";
+        src: url('fonts/dax_light.eot');
+        src: url('fonts/dax_light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/dax_light.svg#Dax') format('svg'),
+        url('fonts/dax_light.woff') format('woff'),
+        url('fonts/dax_light.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+	
 p.style1 {font: 18px/27px 'OpenSansLight', Arial, sans-serif;}
 p.style2 {font: 18px/27px 'OpenSansLightItalic', Arial, sans-serif;}
 p.style3 {font: 18px/27px 'OpenSansRegular', Arial, sans-serif;}
@@ -686,6 +697,70 @@ Home Page Styles
 	text-align:center;
 }
 
+.home-tabs {
+	border-top: 1px solid #E2E2E2;
+	border-bottom: 1px solid #E2E2E2;
+	clear:both;
+	margin-bottom:30px;
+}
+
+.home-tabs .grid-12, .home-tabs .grid-4 { margin:0;}
+
+.home-tabs p {
+	font-family: "Dax";
+	font-size:32px;
+	text-align:center;
+	padding:115px 70px 25px 70px;
+	line-height:32px;
+	color:#5D5D5D;
+	margin-bottom:0px;
+}
+
+.home-tabs p:hover {
+	color:#5593D7;
+}
+
+.home-tabs .grid-4 { }
+
+.core-dev {
+	background: url(imgs/home-tab-core-dev-icon.png) no-repeat center 35px;
+	margin:10px 0!important;
+}
+
+.core-dev:hover {
+	background: url(imgs/home-tab-core-dev-icon-hover.png) no-repeat center 35px;
+}
+
+.app-builder {
+	background: url(imgs/home-tab-app-builder-icon.png) no-repeat center 35px;
+	border-left: 1px solid #E2E2E2;
+	border-right: 1px solid #E2E2E2;
+	margin:10px 20px!important;
+}
+
+.app-builder:hover {
+	background: url(imgs/home-tab-app-builder-icon-hover.png) no-repeat center 35px;
+}
+
+.farmer {
+	background: url(imgs/home-tab-farmer-icon.png) no-repeat center 35px;
+	margin:10px 0!important;	
+}
+
+.farmer:hover {
+	background: url(imgs/home-tab-farmer-icon-hover.png) no-repeat center 35px;
+}
+
+.tell-me-more {
+	border-top: 1px solid #E2E2E2;
+	display:block;
+	clear:both;
+}
+
+.tell-me-more p {
+	padding:20px;
+}
+
 .video-box {
 	border-color: rgba(0, 0, 0, 0);
 	border-style: none;
@@ -1136,34 +1211,6 @@ li.list-quote {
 }
 .list-quote p.quoter {
 	padding:0 60px;
-}
-
-/************************** Banner quote kolberg **************************
-.banner-quote-kolberg {
-	padding:5px 40px 0 40px;
-}
-.banner-quote-kolberg blockquote.quote {
-	background-position: 10px 5px;
-}
-.banner-quote-kolberg blockquote.quote span {
-	background-position: 805px 60px;
-}
-.banner-quote-kolberg p.quoter {
-	padding:0 150px;
-}
-
-/************************** Banner quote irvine ************************
-.banner-quote-irvine {
-	padding:5px 110px 0 110px;
-}
-.banner-quote-irvine blockquote.quote {
-	background-position: 10px 5px;
-}
-.banner-quote-irvine blockquote.quote span {
-	background-position: 670px 60px;
-}
-.banner-quote-irvine p.quoter {
-	padding:0 150px;
 }
 
 /*******************************************************************************
@@ -2161,6 +2208,49 @@ p.quoter {
 	width:100px;
 }
 
+.home-tabs p {
+	font-size:22px;
+	padding:95px 50px 15px 50px;
+	line-height:24px;
+}
+
+.core-dev {
+	background-position: center 25px;
+	background-size:48px 48px;
+	margin:10px 0!important;
+}
+
+.core-dev:hover {
+	background-position: center 25px;
+	background-size:48px 48px;
+}
+
+.app-builder {
+	background-position: center 25px;
+	background-size:54px 43px;
+	margin:10px 18px!important;
+}
+
+.app-builder:hover {
+	background-position: center 25px;
+	background-size:54px 43px;
+}
+
+.farmer {
+	background-position: center 25px;
+	background-size:57px 42px;
+	margin:10px 0!important;	
+}
+
+.farmer:hover {
+	background-position: center 25px;
+	background-size:57px 42px;
+}
+
+.tell-me-more p {
+	padding:20px;
+}
+
 .video-box {
 	height:394px;
 }
@@ -2531,6 +2621,8 @@ p.quoter {
 	display:inline-block;
 	width:90px;
 }
+
+
 
 .video-box {
 	height:293px;

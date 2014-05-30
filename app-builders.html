@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <title>MaidSafe - The New Decentralized Internet</title>
-  <meta name="description" content="MaidSafe's distributed platform enables the creation of fast and secure applications that help ensure digital privacy, security and freedom for all." />
-  <meta name="keywords" content="Distributed Platform, MaidSafe" />
+  <title>MaidSafe - App Development Platform</title>
+  <meta name="description" content="The MaidSafe Platform is protected by a patent portfolio and is distributed under 2 different types of license, Open Source and Commercial." />
+  <meta name="keywords" content="MaidSafe Licensing" />
   <meta name="author" content="MaidSafe" />
   <meta name="robots" content="index, follow" />
   <meta name="googlebot" content="index, follow" />
@@ -18,11 +18,11 @@
   <meta name="twitter:creator" content="@maidsafe">
   
   
-  <meta name="twitter:title" content="MaidSafe - The New Decentralized Internet">
-  <meta name="twitter:description" content="MaidSafe's distributed platform enables the creation of fast and secure applications that help ensure digital privacy, security and freedom for all.">
-  <meta name="twitter:domain" content="maidsafe.net">
   
   
+  <meta name="twitter:title" content="MaidSafe - App Development Platform">
+  <meta name="twitter:description" content="The MaidSafe Platform is protected by a patent portfolio and is distributed under 2 different types of license, Open Source and Commercial.">
+  <meta name="twitter:image:src" content="http://www.maidsafe.net/images/developer_app_stack_twitter.png">
   
 
   <!-- Favicons -->
@@ -32,10 +32,6 @@
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/rwdgrid.css" />
   <link rel="stylesheet" type="text/css" href="css/styles.css" />
-  
-  
-  <link href="css/tabulous.css" rel="stylesheet" type="text/css">
-  
  
 
   
@@ -49,23 +45,6 @@
     window.jQuery || document.write('<script src="library/js/jquery-1.9.1.min.js"><\/script>')
   </script>
   
-  
-  <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
-  <script src="js/jquery.bxslider.js" type="text/javascript"></script>
-  <script type="text/javascript">
-  $(function() {
-  $('.bxslider').bxSlider({
-                            auto: true,
-								mode: 'fade',
-                            autoControls: false,
-                            speed: 1000,
-                            pause: 8000,
-                            pager: true,
-                            controls: false,
-                            tickerHover: true
-                          });
-  });
-  </script>
   
   
   <script>
@@ -119,8 +98,8 @@
 <script>(function(w){if(w.top===w.self){var a=w.document.getElementById('antiClickjack');a.parentNode.removeChild(a);}else{w.top.location=w.self.location;}}(window));</script>
 <!-- ClickJacking Defense end -->
 </head>
-<body id="home">
-  <div id="container">
+<body id="developers">
+    <div id="container">
     <div id="main">
     <header>
       <div class="container-12 fw">
@@ -180,69 +159,64 @@
         </div>
       </div>
     </header>
-
-<div class="banner">
-<div class="container-12">
-  <div class="grid-12">
-    <ul class="bxslider">
-   <li class="banner-plane">
-      <div class="plane"></div>
-      <h1>MaidSafe will do for data what Bitcoin does for trade</h1>
-      </li>
-      <li class="banner-community">
-      <h1>The community is growing... Come join us!</h1>
-      <a href="https://groups.google.com/forum/#!forum/maidsafe-development" target="_blank" class="community-development" title="Visit the MaidSafe Development mailing list"></a>
-      <a href="http://maidsafe.org" target="_blank" class="community-org" title="Visit the MaidSafe forum"></a>
-      <a href="http://safecointalk.org/" target="_blank" class="community-safecoin" title="Visit the safecoin forum"></a>
-      </li>
-      <li class="banner-news">
-      <div class="news-graphic"></div>
-      <h1>Check out what Forbes, Wall Street Journal and many <br/>
-      others are saying since Wired UK broke our story...</h1>
-      <p><a href="/press">Read the latest here...</a></p>
-      </li>
-      <li class="banner-getcode">
-      	<a href="https://github.com/maidsafe/MaidSafe/wiki" target="_blank">
-        <div class="github-icon"><h1>Get the code now,<span class="spacer"></span> proud to be Open Source!</h1></div>
-        </a>
-      </li>
-    </ul>
-  </div>
-</div>
-</div>
-<div class="container-12">
-	<div class="home-tabs grid-12">
-		<a href="core-developer" class="grid-4 core-dev"><p>I'm a CORE Developer</p></a>
-		<a href="app-builder" class="grid-4 app-builder"><p>I'm an APP Builder</p></a>
-        <a href="farmer" class="grid-4 farmer"><p>I'm a FARMER</p></a>
-        <a href="tell-me-more" class="grid-12 tell-me-more"><p>I'm not sure yet... tell me more</p></a>
-	</div>
-</div>
       <div class="container-12">
-        <div class="grid-12">
-          <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/RdGH40oUVDY" allowfullscreen></iframe>
-          </div>
+        <div class="grid-9 main-content app-stack">
+          <a href="https://groups.google.com/forum/#!forum/maidsafe-development" target="_blank" class="get-started-button">Sign Up for our Mailing List</a>
+          
+            <h1>App Builders</h1> 
+            
+            <p>This is the MaidSafe Library stack, it shows how each of the libraries tie in to enable applications to build and run successfully.</p>
+            
+            <h2>Your applications here</h2> 
+      
+        	<div class="diagram">
+            <a href="https://github.com/maidsafe/MaidSafe-Vault/wiki/Documentation" target="_blank" class="grid-3  light-button">Vault</a>
+            <div class="grid-3 app-stack-spacer"></div>
+            <a href="https://github.com/maidsafe/MaidSafe-Drive/wiki/Documentation" target="_blank" class="grid-3  light-button">Drive</a>
+            
+            <a href="https://github.com/maidsafe/MaidSafe-Vault-Manager/wiki/Documentation" target="_blank" class="grid-3  light-button">Vault Manager</a>
+            <a href="https://github.com/maidsafe/MaidSafe-API/wiki/Documentation" target="_blank" class="grid-3  light-button">API</a>
+            <a href="https://github.com/maidsafe/MaidSafe-Encrypt/wiki/Documentation" target="_blank" class="grid-3  light-button">Encrypt</a>
+            
+            <a href="https://github.com/maidsafe/MaidSafe-Network-Filesystem/wiki/Documentation" target="_blank" class="grid-8  light-button-full">Nfs</a>  
+            <a href="https://github.com/maidsafe/MaidSafe-Passport/wiki/Documentation" target="_blank" class="grid-8  light-button-full">Passport</a>
+            <a href="https://github.com/maidsafe/MaidSafe-Routing/wiki/Documentation" target="_blank" class="grid-8  light-button-full">Routing</a>
+            <a href="https://github.com/maidsafe/MaidSafe-RUDP/wiki/Documentation" target="_blank" class="grid-8  light-button-full">rUDP</a>
+            <a href="https://github.com/maidsafe/MaidSafe-Common/wiki/Documentation" target="_blank" class="grid-8  light-button-full last-button">Common</a>
+            </div> 
+  
+<p>By introducing the SAFE networks very own crypto currency, safecoin, developers now finally have an Open Source business model that works. By coding
+your safe wallet ID into your application(s), the network will automatically pay safecoins to you based on how much the application is utilised by end
+users. No longer will app developers need to morph themselves into support experts or advertising resellers, you can now focus on making great applications
+with a revenue stream already built in.</p>
+
+<p>As an Open Source developer access to the SAFE network will be completely free of charge, enabling you to outperform all incumbents, with back end infra 
+structure that automatically adapts in real-time to demand fluctuations, which also allows you to offer anonymity, security and privacy to all your users.</p>
+
+
+<p>The MaidSafe network API is being finalised now, join us and decide on your venture, we will help make your vision a reality.
+</p>
+            <p><strong>Reasons for developing on the MaidSafe platform:</strong></p>
+            <ul>
+              <li> Get your apps everywhere</li>
+              <li>No API key - just download our code and start using it</li>
+              <li>Extremely low customer acquisition costs and no infrastructure costs</li>
+              <li>Apps that adapt in real-time to changes in demand</li>
+              <li>Provide security, privacy and anonymity to all your users</li>
+            </ul>
+            </div>
+        <div class="grid-3 leftnav-shell">
+          <ul class="leftnav">
+            <li class="overview"><a href="network-platform-developers">Overview</a>
+            </li>
+            <li class="libraries"><a href="maidsafe-network-platform-libraries">Libraries</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="container-12">
-        <section>
-          <div class="grid-6 para-l">
-            <h2>The New Decentralized Internet</h2>
-            <p>MaidSafe is a fully decentralized platform on which application developers can build decentralized applications. The network is made up by individual users who contribute storage, computing power and bandwidth to form a world-wide autonomous system.</p>
-            <p> <a href="open-source-platform">Read more...</a>
-            </p>
-          </div>
-          <div class="grid-6 para-r">
-            <h2>Calling Decentralized Application Developers</h2>
-            <p>How would you like to create the next Dropbox, Facebook, Google, LinkedIn, Twitter, Candy Crush, or secure email service? The MaidSafe platform offers every developer the opportunity to create applications without any infrastructure costs and without any barrier to entry.</p>  <p> <a href="network-platform-developers">Read more...</a>
-            </p>
-          </div>
-        </section>
       </div>
-    </div>
-  </div>
-  <footer>
+      </div>
+    <footer>
   <div class="container-12">
     <div class="grid-2 footer-links">
       <ul>
@@ -333,12 +307,6 @@
         $(".video-container").fitVids({ customSelector: "iframe[src^='http://socialcam.com']"});
       </script>
 
-
-
-
-
-<script type="text/javascript" src="js/tabulous.js"></script>
-<script type="text/javascript" src="js/js.js"></script>
 
 
 </body>
