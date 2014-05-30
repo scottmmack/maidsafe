@@ -1020,7 +1020,8 @@ a.button-blue {
 	text-align:center;
 }
 
-a.light-button, a.light-button-full {
+a.light-button, a.light-button-full,
+a.green-button, a.green-button-full {
 	background-color:#c5d9f1;
 	font-size:18px;
 	text-align:center;
@@ -1028,16 +1029,17 @@ a.light-button, a.light-button-full {
 	text-decoration:none;
 }
 
-a.light-button:hover, a.light-button-full:hover {
+a.light-button:hover, a.light-button-full:hover,
+a.green-button:hover, a.green-button-full:hover {
 	background-color:#5593D7;
 	color:#ffffff;
 }
 
-a.light-button {
+a.light-button, a.green-button {
 	padding:20px 0;
 }
 
-a.light-button-full {
+a.light-button-full, a.green-button-full {
 	padding:20px 31px;
 }
 
@@ -1052,7 +1054,7 @@ a.last-button {
 
 .app-stack {
 	background:url(imgs/arrows-stack-diagram.png) no-repeat;
-	background-position:330px 180px;
+	background-position:330px 160px;
 }
 
 .app-stack-spacer {
@@ -1060,16 +1062,11 @@ a.last-button {
 	margin:5px 6px;
 }
 
-#core-developer .app-stack {
-	background:url(imgs/arrows-stack-diagram.png) no-repeat;
-	background-position:330px 690px;
-}
-
-a.green-button, a.light-button-full {
+a.green-button, a.green-button-full {
 	background-color:#d3f4d4;
 }
 
-a.green-button:hover, a.light-button-full:hover {
+a.green-button:hover, a.green-button-full:hover {
 	background-color:#94d798;
 }
 
