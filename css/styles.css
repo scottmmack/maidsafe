@@ -466,8 +466,9 @@ header {
 #platform-use-cases .menu .overview a,
 #licensing-platform .menu .overview a,
 #testimonials .menu .overview a,
-#developers .menu .developers a,
-#platform-libraries .menu .developers a,
+#core-developer .menu .core-developer a,
+#app-builder .menu .core-developer a,
+#platform-libraries .menu .core-developer a,
 #company .menu .company a,
 #farmers .menu .farmers a,
 #careers .menu .company a,
@@ -1060,6 +1061,11 @@ a.last-button {
 .app-stack-spacer {
 	height:50px;
 	margin:5px 6px;
+}
+
+#core-developer .app-stack {
+	background:url(imgs/arrows-stack-diagram.png) no-repeat;
+	background-position:330px 690px;
 }
 
 a.green-button, a.green-button-full {
