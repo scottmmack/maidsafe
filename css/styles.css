@@ -1065,6 +1065,14 @@ a.last-button {
 	background-position:330px 690px;
 }
 
+#core-developer a.light-button, a.light-button-full {
+	background-color:#d3f4d4;
+}
+
+#core-developer a.light-button:hover, a.light-button-full:hover {
+	background-color:#94d798;
+}
+
 
 /*******************************************************************************
 
