@@ -469,6 +469,7 @@ header {
 #developers .menu .developers a,
 #platform-libraries .menu .developers a,
 #company .menu .company a,
+#farmers .menu .farmers a,
 #careers .menu .company a,
 #stakeholders .menu .stakeholders a,
 #blog .menu .blog a,
@@ -489,8 +490,9 @@ header {
 }
 
 /******** Developers - Left nav selected state styles ********/
-#developers ul.leftnav .developers a,
-#platform-libraries ul.leftnav .libraries a {
+#core-developer ul.leftnav .core-developer a,
+#platform-libraries ul.leftnav .libraries a,
+#app-builder ul.leftnav .app-builder a {
 	color:#5593D7;
 }
 
