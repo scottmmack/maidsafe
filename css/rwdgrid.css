@@ -414,43 +414,43 @@ footer .grid-1, footer .grid-2, footer .grid-3, footer .grid-4, footer .grid-5, 
 }
 
 
-#developers .container-16, #developers .container-12 {
+#core-developer .container-16, #developers .container-12 {
 	width: 90%;
 }
-#developers .container-12 .diagram .grid-1 {
+#core-developer .container-12 .diagram .grid-1 {
 	width:25px;
 }
-#developers .container-12 .diagram .grid-2 {
+#core-developer .container-12 .diagram .grid-2 {
 	width:70px;
 }
-#developers .container-12 .diagram .grid-3 {
+#core-developer .container-12 .diagram .grid-3 {
 	width:115px;
 }
-#developers .container-12 .diagram .grid-4 {
+#core-developer .container-12 .diagram .grid-4 {
 	width:160px;
 }
-#developers .container-12 .diagram .grid-5 {
+#core-developer .container-12 .diagram .grid-5 {
 	width:205px;
 }
-#developers .container-12 .diagram .grid-6 {
+#core-developer .container-12 .diagram .grid-6 {
 	width:250px;
 }
-#developers .container-12 .diagram .grid-7 {
+#core-developer .container-12 .diagram .grid-7 {
 	width:295px;
 }
-#developers .container-12 .diagram .grid-8 {
+#core-developer .container-12 .diagram .grid-8 {
 	width:340px;
 }
-#developers .container-12 .diagram .grid-9 {
+#core-developer .container-12 .diagram .grid-9 {
 	width:385px;
 }
-#developers .container-12 .diagram .grid-10 {
+#core-developer .container-12 .diagram .grid-10 {
 	width:430px;
 }
-#developers .container-12 .diagram .grid-11 {
+#core-developer .container-12 .diagram .grid-11 {
 	width:475px;
 }
-#developers .container-12 .diagram .grid-12 {
+#core-developer .container-12 .diagram .grid-12 {
 	width:520px;
 }
 
