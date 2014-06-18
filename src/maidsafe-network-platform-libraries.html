@@ -6,7 +6,8 @@
       includeHomeBanners = "False",
       includeToggle = "False",
       includeTwitterCard = True,
-      includeDeveloperTwitterCard = "False"
+      includeDeveloperTwitterCard = "False",
+      includeTabulousCSS = "False"
 %]
 <body id="platform-libraries">
   [%  INCLUDE nav %]
@@ -31,7 +32,6 @@
               <p><a href="libraries-common"><strong>> More Information</strong></a>
               </p>
             </section>
-
             <section>
               <h2 class="drive-head">Drive</h2>
               <p>A cross platform virtual drive with an easy to use API. Uses <a class="nonblock" href="http://fuse.sourceforge.net" target="_blank">Fuse</a>&nbsp;for <span>Linux</span>&nbsp;systems, <a href="http://osxfuse.github.io" target="_blank">OSXFuse</a>&nbsp;for
@@ -115,8 +115,8 @@
           </div>
         </div>
         <div class="grid-3 leftnav-shell">
-          <ul class="leftnav">
-            <li class="core-developer"><a href="core-developer">Core Developers</a>
+         <ul class="leftnav">
+            <li class="core-developer"><a href="core-developers">Core Developers</a>
             </li>
             <li class="app-builder"><a href="app-builder">App Builder</a>
             </li>
@@ -128,5 +128,7 @@
     </div>
   </div>
   [%  INCLUDE footer 
-includeGridLoad = "False" 
+	includeGridLoad = "False",
+    includeResponsiveVideo = "False",
+    includeTabulousScripts = "False"
 %]

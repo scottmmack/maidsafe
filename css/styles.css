@@ -213,16 +213,16 @@ Fonts
     font-style: normal;
 
 }
+
 @font-face {
-        font-family: "Dax";
+        font-family: 'Dax';
         src: url('fonts/dax_light.eot');
         src: url('fonts/dax_light.eot?#iefix') format('embedded-opentype'),
-        url('fonts/dax_light.svg#Dax') format('svg'),
-        url('fonts/dax_light.woff') format('woff'),
-        url('fonts/dax_light.ttf') format('truetype');
+          	  url('fonts/dax_light.woff') format('woff'),
+        	  url('fonts/dax_light.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
-    }
+}
 	
 p.style1 {font: 18px/27px 'OpenSansLight', Arial, sans-serif;}
 p.style2 {font: 18px/27px 'OpenSansLightItalic', Arial, sans-serif;}
@@ -538,8 +538,12 @@ header {
 #article-redecentralize-interview .pressnav .article-redecentralize-interview a,
 #article-coin-artist .pressnav .article-coin-artist a,
 #article-cryptocoins-news .pressnav .article-cryptocoins-news a,
-#article-david-lasoff .pressnav .article-david-lasoff a  {
-	color:#5593D7;
+#article-david-lasoff .pressnav .article-david-lasoff a,
+#article-siliconangle .pressnav .article-siliconangle a,
+#article-business-insider-01-06-14 .pressnav .article-business-insider-01-06-14 a,
+#article-the-scotsman-15-06-14 .pressnav .article-the-scotsman-15-06-14 a,
+#article-bitcoin-uk-media-15-06-14 .pressnav .article-bitcoin-uk-media-15-06-14 a  {
+	color:#5593D7!important;
 }
 
 /*******************************************************************************
@@ -707,6 +711,10 @@ Home Page Styles
 	margin-bottom:30px;
 }
 
+.home-tabs a {
+	display:block;
+}
+
 .home-tabs .grid-12, .home-tabs .grid-4 { margin:0;}
 
 .home-tabs p {
@@ -722,8 +730,6 @@ Home Page Styles
 .home-tabs p:hover {
 	color:#5593D7;
 }
-
-.home-tabs .grid-4 { }
 
 .core-dev-tab {
 	background: url(imgs/home-tab-core-dev-icon.png) no-repeat center 35px;
@@ -747,12 +753,16 @@ Home Page Styles
 
 .farmer-tab {
 	background: url(imgs/home-tab-farmer-icon.png) no-repeat center 35px;
-	margin:10px 0!important;	
+	margin:10px 0!important;
+	width:77px;
+	height:92px;
 }
+
 
 .farmer-tab:hover {
 	background: url(imgs/home-tab-farmer-icon-hover.png) no-repeat center 35px;
 }
+
 
 .tell-me-more-tab {
 	border-top: 1px solid #E2E2E2;
@@ -763,6 +773,7 @@ Home Page Styles
 .tell-me-more-tab p {
 	padding:20px;
 }
+
 
 .video-box {
 	border-color: rgba(0, 0, 0, 0);
@@ -888,7 +899,6 @@ Inner Page Styles
 ul.leftnav, .pressnav { padding-right:30px;}
 ul.leftnav li, .pressnav ul li { margin-bottom:15px;}
 ul.leftnav li a { color:#7F7F7F; font-size:16px;}
-.pressnav li a { color:#7F7F7F; font-size:12px;}
 ul.leftnav li a:hover, .pressnav li a:hover { color:#333333;}
 /* subnav */
 ul.leftnav li ul, .pressnav li ul { margin-top:15px; margin-bottom:20px;}
@@ -901,6 +911,8 @@ ul.pressnav {margin-bottom:40px;}
 	float:right;
 	margin-bottom:50px;
 }
+
+.main-content h2 { margin-top:50px;}
 
 .main-content a {
 	color: #464646;
@@ -928,7 +940,7 @@ ul.pressnav {margin-bottom:40px;}
 }
 
 p {
-	margin-bottom:30px;
+	margin-bottom:20px;
 }
 
 /*******************************************************************************
@@ -1488,6 +1500,8 @@ Press Page Styles
 a h3 { color:inherit;}
 
 #press .main-content { float:none;}
+
+#press .main-content h2 { margin-top:0px;}
 
 #press .main-content ul li { 
     padding-left: 0px;

@@ -33,8 +33,8 @@
   <link rel="stylesheet" type="text/css" href="css/rwdgrid.css" />
   <link rel="stylesheet" type="text/css" href="css/styles.css" />
   
+  <link rel="stylesheet" type="text/css" href="css/smoothDivScroll.css" />
   
-  <link href="css/tabulous.css" rel="stylesheet" type="text/css">
   
  
 
@@ -129,15 +129,14 @@
                     </li>
                   </ul>
                 </li>
-                <li class="developers single-link"><a href="network-platform-developers">developers</a>
+                <li class="core-developer single-link"><a href="core-developers">developers</a>
                 <li class="has-submenu"><a href="#">developers</a>
                   <ul class="sub-menu">
-                    <li><a href="network-platform-developers">overview</a>
+                    <li><a href="core-developers">developers overview</a>
+                    </li>
+                    <li><a href="app-builder">app-builder</a>
                     </li>
                     <li><a href="maidsafe-network-platform-libraries">libraries</a>
-                    </li>
-                    
-                    <li><a href="network-platform-licensing">licensing</a>
                     </li>
                   </ul>
                 </li>
@@ -166,9 +165,44 @@
         <div class="main-content">
             <h1>Press</h1>
             <p>Press enquiries - Media or analysts seeking press information or interviews should email Nick Lambert: <a href="mailto:pr@maidsafe.net">pr@maidsafe.net</a>.</p>
-            
-  
             <ul class="grid effect-8" id="grid"> 
+            
+          <li>
+            <div class="grid-4 press-article">
+                <a href="article-bitcoin-uk-media-15-06-14">
+                <img src="images/pr-bitcoin-uk-media-15-06-14.png" class="responsive pr-image" title="The Passive Revolution" alt="BitcoinUKMedia">
+                </a>
+                <h2>Bitcoin UK Media</h2><a href="article-bitcoin-uk-media-15-06-14"><p>The Passive Revolution</p></a>
+            </div>
+            </li>
+          
+           <li>
+            <div class="grid-4 press-article">
+                <a href="article-the-scotsman-15-06-14">
+                <img src="images/pr-the-scotsman-15-06-14.png" class="responsive pr-image" title="Scots firm creates way to hide internet footprint" alt="TheScotsman">
+                </a>
+                <h2>The Scotsman</h2><a href="article-the-scotsman-15-06-14"><p>Scots firm creates way to hide internet footprint</p></a>
+            </div>
+            </li>
+            
+            <li>
+            <div class="grid-4 press-article">
+                <a href="article-business-insider-01-06-14">
+                <img src="images/pr-business-insider-01-06-14.png" class="responsive pr-image" title="These Guys Are Creating A Whole New Internet Using Bitcoin And They Are Having Surprising Success" alt="businessInsiderArticle">
+                </a>
+                <h2>Business Insider</h2><a href="article-business-insider-01-06-14"><p>These Guys Are Creating A Whole New Internet Using Bitcoin And They Are Having Surprising Success</p></a>
+            </div>
+            </li>
+            
+            <li>
+            <div class="grid-4 press-article">
+                <a href="article-siliconangle">
+                <img src="images/pr-siliconangle.png" class="responsive pr-image" title="Is MaidSafe really the Bitcoin of data?" alt="siliconANGLE">
+                </a>
+                <h2>SiliconANGLE</h2><a href="article-siliconangle"><p>Is MaidSafe really the 'Bitcoin of data'?</p></a>
+            </div>
+            </li>
+            
             <li>
             <div class="grid-4 press-article">
                 <a href="article-david-lasoff">
@@ -191,7 +225,7 @@
                 <a href="article-coindesk-23-05-14">
                 <img src="images/pr-coindesk-23-05-14.png" class="responsive pr-image" title="500 Developers Already Signed Up for MaidSafe Project" alt="CoinDesk">
                 </a>
-                <h2>CoinDesk</h2><a href="article-gigaom"><p>500 Developers Already Signed Up for MaidSafe Project</p></a>
+                <h2>CoinDesk</h2><a href="article-coindesk-23-05-14"><p>500 Developers Already Signed Up for MaidSafe Project</p></a>
             </div>
             </li>
             <li>
@@ -436,9 +470,6 @@
       <ul>
         <li><a href="/">Home</a>
         </li>
-        <li><a href="company-privacy-security-freedom">Company</a>
-        </li>
-        
         <li><a href="press">Press</a>
         </li>
         <li><a href="http://blog.maidsafe.net/" target="_blank">Blog</a>
@@ -459,17 +490,36 @@
         </li>
         <li><a href="network-platform-licensing">- Licensing</a>
         </li>
+        <li><a href="testimonials">- Testimonials</a>
+        </li>
       </ul>
     </div>
     <div class="grid-2 footer-links">
       <ul>
-        <li><a href="network-platform-developers">Developers</a>
+        <li><a href="core-developers">Developers</a>
+        </li>
+        <li><a href="app-builder">- App Builder</a>
         </li>
         <li><a href="maidsafe-network-platform-libraries">- Libraries</a>
         </li>
+        <li><br/></li>
+        <li><a href="farmers">Farmers</a>
+        </li>
       </ul>
     </div>
-    <div class="grid-6">
+    <div class="grid-2 footer-links">
+      <ul>
+        <li><a href="company-privacy-security-freedom">Company</a>
+        </li>
+        <li><a href="team">- Team</a>
+        </li>
+        <li><a href="careers">- Careers</a>
+        </li>
+        <li><a href="timeline">- Timeline</a>
+        </li>
+      </ul>
+    </div>
+    <div class="grid-4">
 
       <ul class="social-links">
         <li class="google-icon">
@@ -505,7 +555,6 @@
         </a>
       </div>
       <p class="legal">©2014 MaidSafe.net. All rights reserved.
-      	<a href="contact">CONTACT</a>
         <a href="disclaimer">DISCLAIMER</a>
         <a href="privacy">PRIVACY</a>
       </p>
@@ -513,14 +562,6 @@
   </div>
 </footer>
 
-
-<script src="js/jquery.fitvids.js"></script>
-      <script>
-        // Basic FitVids Test
-        $(".video-container").fitVids();
-        // Custom selector and No-Double-Wrapping Prevention Test
-        $(".video-container").fitVids({ customSelector: "iframe[src^='http://socialcam.com']"});
-      </script>
 
 
 
@@ -538,9 +579,6 @@
   </script>
 
 
-
-<script type="text/javascript" src="js/tabulous.js"></script>
-<script type="text/javascript" src="js/js.js"></script>
 
 
 </body>
