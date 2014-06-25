@@ -542,7 +542,8 @@ header {
 #article-siliconangle .pressnav .article-siliconangle a,
 #article-business-insider-01-06-14 .pressnav .article-business-insider-01-06-14 a,
 #article-the-scotsman-15-06-14 .pressnav .article-the-scotsman-15-06-14 a,
-#article-bitcoin-uk-media-15-06-14 .pressnav .article-bitcoin-uk-media-15-06-14 a  {
+#article-bitcoin-uk-media-15-06-14 .pressnav .article-bitcoin-uk-media-15-06-14 a,
+#article-world-crypto-network-18-06-14 .pressnav .article-world-crypto-network-18-06-14 a  {
 	color:#5593D7!important;
 }
 
@@ -1026,10 +1027,10 @@ a.button-blue {
 	cursor:pointer;
 }
 
-#developers h1 {
+#core-developer h1, #app-builder h1 {
 	margin-bottom:50px;
 }
-#developers h2 {
+#core-developer h2, #app-builder h2 {
 	text-align:center;
 }
 
@@ -1067,7 +1068,7 @@ a.last-button {
 
 .app-stack {
 	background:url(imgs/arrows-stack-diagram.png) no-repeat;
-	background-position:330px 160px;
+	background-position:330px 200px;
 }
 
 .app-stack-spacer {
@@ -1077,15 +1078,7 @@ a.last-button {
 
 #core-developer .app-stack {
 	background:url(imgs/arrows-stack-diagram.png) no-repeat;
-	background-position:330px 690px;
-}
-
-a.green-button, a.green-button-full {
-	background-color:#d3f4d4;
-}
-
-a.green-button:hover, a.green-button-full:hover {
-	background-color:#94d798;
+	background-position:330px 700px;
 }
 
 
@@ -1179,11 +1172,6 @@ a.gpl-license, a.commercial-license, a.contributor-agreement {
 .license-reg {
 	padding:20px 20px 0px 150px;
 }
-
-
-
-
-
 
 /*******************************************************************************
 
@@ -1325,20 +1313,21 @@ Company Page Styles
 	margin:0 0 30px 0px;
 	padding:0 0 0 30px;
 }
-/*
-#company .col-l p {
-	padding-right:10px;
-}
-#company .col-m p {
-	padding-right:10px;
-	padding-left:10px;
-}
-#company .col-r p {
-	padding-left:10px;
-}
-*/
 
+.main-content .col-3 {
+	width:205px;
+	/*padding:0px 0px;*/
+}
 
+.main-content .left-col {
+	padding:0 30px 0 0;
+	margin:0 10px 0 0;
+}
+
+.main-content .right-col {
+	padding:0 0 0 30px;
+	margin:0 0 0 10px;
+}
 
 
 #company .grid-4.l {
@@ -1355,10 +1344,13 @@ Company Page Styles
 	background-size:224px 224px;
 }
 
+/*
 #team .grid-9 {
 	width:732px;
 	margin:0px;
 }
+
+*/
 
 #team  h3 {
 	font-family: 'OpenSansRegular', Arial, sans-serif;
@@ -1392,74 +1384,10 @@ a.wordpress-button {
 
 a.wordpress-button:hover { background-position:bottom left;}
 
-.mosaic-block {
+.profile-row {
+	display:block;
 	float:left;
-	position:relative;
-	overflow:hidden;
-	width:224px;
-	height:224px;
-	margin-bottom:15px;
-	/*-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5);*/
 }
-
-.mosaic-block .details { padding:16px;}
-.mosaic-block h2 { color:#fff; }
-.mosaic-block h4 { margin-bottom:10px; color:#fff;}
-.mosaic-block a { text-decoration:none;}
-.mosaic-block p {color:#fff; font-size:13px; line-height:18px;}
-
-	.mosaic-backdrop {
-		display:none;
-		position:absolute;
-		top:0;
-		height:100%;
-		width:100%;
-		background:#111;
-	}
-	
-	.mosaic-overlay {
-		display:none;
-		z-index:5;
-		position:absolute;
-		width:100%;
-		height:100%;
-		background:#111;
-	}
-	
-		
-		.fade .mosaic-overlay {
-			opacity:0;
-			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";
-			filter:alpha(opacity=00);
-			background:url(imgs/bg-black.png);
-		}
-		
-		.bar .mosaic-overlay {
-			bottom:-145px;
-			height:175px;
-			background:url(imgs/bg-black.png);
-		}
-		
-		.bar2 .mosaic-overlay {
-			bottom:-50px;
-			height:100px;
-			opacity:0.8;
-			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-			filter:alpha(opacity=80);
-		}
-		
-			.bar2 .mosaic-overlay:hover {
-				opacity:1;
-				-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-				filter:alpha(opacity=100);
-			}
-		
-		.bar3 .mosaic-overlay {
-			top:-100px;
-			height:100px;
-			background:url(imgs/bg-black.png);
-		}
-		
 	
 
 /*******************************************************************************
@@ -1488,6 +1416,71 @@ Careers Page Styles
 
 #careers .col-r {
 	float:right;
+}
+
+.current-jobs {
+	padding:15px;
+	background-color:#89b2df;
+	position:relative;
+	top:-10px;
+}
+.current-jobs h1 {
+	color:#fff;
+	font-size:22px;
+}
+.current-jobs h2 {
+	color:#fff;
+	font-size:14px;
+	font-family: 'OpenSansBold', Arial, sans-serif;
+	margin:0px 0px 20px 0;
+	padding:0px;
+	clear:both;
+}
+.current-jobs p, .current-jobs ul li {
+	color:#fff;
+	font-size:12px;
+	text-indent:0em;
+	padding-left:0px;
+}
+
+.current-jobs p { }
+
+.current-jobs ul li:before {
+	content:"";
+}
+
+/*
+.main-content .grid-3 { width:100%; float:left; clear:both;}
+*/
+.applynow {
+	background:url(imgs/applynow.png) no-repeat 0 0;
+	width:67px;
+	height:66px;
+	float:right;
+	position:relative;
+	top:-20px;
+	right:-20px;
+}
+a.applyhere {
+	background:url(imgs/applyhere_btn.png) no-repeat top left;
+	width:121px;
+	height:37px;
+	display:block;
+	float:;
+	position:relative;
+	right:-64px;
+	text-transform:uppercase;
+	text-decoration:none;
+	padding:15px;
+}
+
+a.applyhere:hover {
+	background-position:bottom left;
+}
+
+.apply-text {
+	font-size:18px;
+	letter-spacing:-0.5px;
 }
 
 /*******************************************************************************
@@ -2394,6 +2387,22 @@ a.light-button-full {
 	background-position:230px 860px;
 }
 
+/*********** Company Page ***************/
+.main-content .col-3 {
+	width: 146px;
+}
+
+.main-content .left-col {
+	padding:0 20px 0 0;
+	margin:0 10px 0 0;
+}
+
+.main-content .right-col {
+	padding:0 0 0 20px;
+	margin:0 0 0 10px;
+}
+
+
 /*********** Team Page ***************/
 #team .grid-9 {
 	width:540px;
@@ -2426,6 +2435,46 @@ a.light-button-full {
 
 #careers .col-l {
 	margin-right:70px;
+}
+.current-jobs {
+	padding:10px;
+	top:-10px;
+}
+.current-jobs h1 {
+	font-size:17px;
+}
+.current-jobs h2 {
+	font-size:12px;
+	margin:0px 0px 15px 0;
+}
+.current-jobs p, .current-jobs ul li {
+	font-size:11px;
+}
+
+.applynow {
+	background-size:41px 40px;
+	width:41px;
+	height:40px;
+	top:-14px;
+	right:-14px;
+}
+a.applyhere {
+	background-size:100px 88px;
+	width:86px;
+	height:24px;
+	display:block;
+	float:;
+	position:relative;
+	right:-54px;
+	text-transform:uppercase;
+	text-decoration:none;
+	padding:10px 6px;
+	font-size:11px;
+}
+
+.apply-text {
+	font-size:13px;
+	letter-spacing:-0.5px;
 }
 /*********** Use Cases Page Styles *************/
 #use-cases section .grid-4 {
@@ -2814,16 +2863,24 @@ a.light-button-full {
 	background-size:180px 132px;
 }
 
+/*********** Company Page ***************/
+.main-content .col-3 {
+	width: 108px;
+}
+
+.main-content .left-col {
+	padding:0 10px 0 0;
+	margin:0 10px 0 0;
+}
+
+.main-content .right-col {
+	padding:0 0 0 10px;
+	margin:0 0 0 10px;
+}
+
 
 /*********** Team Page ***************/
-#team .grid-9 {
-	width:360px;
-	margin:0px;
-}
 
-#team .container-12 .grid-3 {
-    width: 160px;
-}
 
 #team h3 { font-size:12px;}
 
@@ -2854,6 +2911,44 @@ a.light-button-full {
 
 #careers .col-l {
 	margin-right:55px;
+}
+
+.current-jobs {
+	padding:7px;
+	top:-10px;
+}
+.current-jobs h1 {
+	font-size:17px;
+}
+.current-jobs h2 {
+	font-size:12px;
+	margin:0px 0px 15px 0;
+}
+.current-jobs p, .current-jobs ul li {
+	font-size:11px;
+}
+
+.applynow {
+	background-size:41px 40px;
+	width:41px;
+	height:40px;
+	top:-11px;
+	right:-11px;
+}
+a.applyhere {
+	background-size:100px 88px;
+	width:86px;
+	height:24px;
+	right:-12px;
+	text-transform:uppercase;
+	text-decoration:none;
+	padding:10px 6px;
+	font-size:11px;
+}
+
+.apply-text {
+	font-size:13px;
+	letter-spacing:-0.5px;
 }
 
 /*********** Use Cases Page Styles *************/
@@ -3490,6 +3585,21 @@ a.light-button-full {
 	background-size:180px 132px;
 }
 
+/*********** Company Page ***************/
+.main-content .col-3 {
+	width: 90%;
+}
+
+.main-content .left-col {
+	padding:0;
+	margin:0;
+}
+
+.main-content .right-col {
+	padding:0;
+	margin:0;
+}
+
 /*********** Team Page ***************/
 #team .grid-9 {
 	width:auto;
@@ -3539,6 +3649,15 @@ a.light-button-full {
 
 #careers .col-r {
 	float:right;
+}
+
+
+a.applyhere {
+	position:absolute;
+	bottom:6px;
+	right:-6px;
+	margin:20px 0 0 20px;
+
 }
 
 /******************* Libraries Page **********************/
