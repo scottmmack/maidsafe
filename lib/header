@@ -104,18 +104,17 @@
 	<script type="text/javascript">
     $(document).ready(function(){
         
-        $(".toggle_container").hide();
+        $(".toggle_container, .toggle_answer").hide();
     
-        $("h2.trigger").toggle(function(){
+        $("h2.trigger, h3.question").toggle(function(){
             $(this).addClass("active"); 
             }, function () {
             $(this).removeClass("active");
         });
         
-        $("h2.trigger").click(function(){
-            $(this).next(".toggle_container").slideToggle("slow,");
+        $("h2.trigger, h3.question").click(function(){
+            $(this).next(".toggle_container, .toggle_answer").slideToggle("slow,");
         });
-    
     });
     </script>
     [% END %]
