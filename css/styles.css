@@ -1034,8 +1034,7 @@ a.button-blue {
 	text-align:center;
 }
 
-a.light-button, a.light-button-full,
-a.green-button, a.green-button-full {
+a.light-button, a.light-button-full {
 	background-color:#c5d9f1;
 	font-size:18px;
 	text-align:center;
@@ -1043,17 +1042,16 @@ a.green-button, a.green-button-full {
 	text-decoration:none;
 }
 
-a.light-button:hover, a.light-button-full:hover,
-a.green-button:hover, a.green-button-full:hover {
+a.light-button:hover, a.light-button-full:hover {
 	background-color:#5593D7;
 	color:#ffffff;
 }
 
-a.light-button, a.green-button {
+a.light-button {
 	padding:20px 0;
 }
 
-a.light-button-full, a.green-button-full {
+a.light-button-full {
 	padding:20px 31px;
 }
 
@@ -1079,6 +1077,125 @@ a.last-button {
 #core-developer .app-stack {
 	background:url(imgs/arrows-stack-diagram.png) no-repeat;
 	background-position:330px 700px;
+}
+
+
+/*******************************************************************************
+
+Get Involved Page Styles
+
+*******************************************************************************/
+
+.get-involved-tabs {
+	border-top: 1px solid #E2E2E2;
+	border-bottom: 1px solid #E2E2E2;
+	clear:both;
+	margin-bottom:30px;
+	float:left;
+}
+
+.get-involved-tabs a {
+	display:block;
+	text-decoration:none;
+}
+
+.get-involved-tabs .grid-12, .get-involved-tabs .grid-4 { margin:0;}
+
+.get-involved-tabs p {
+	font-family: "Dax";
+	font-size:26px;
+	text-align:center;
+	padding:115px 50px 25px 50px;
+	line-height:32px;
+	color:#5D5D5D;
+	margin-bottom:0px;
+}
+
+.get-involved-tabs p:hover {
+	color:#5593D7;
+}
+
+.core-dev-tab {
+	background: url(imgs/home-tab-core-dev-icon.png) no-repeat center 35px;
+	margin:10px 0!important;
+}
+
+.core-dev-tab:hover {
+	background: url(imgs/home-tab-core-dev-icon-hover.png) no-repeat center 35px;
+}
+
+.app-builder-tab {
+	background: url(imgs/home-tab-app-builder-icon.png) no-repeat center 35px;
+	border-left: 1px solid #E2E2E2;
+	border-right: 1px solid #E2E2E2;
+	margin:10px 20px!important;
+}
+
+.app-builder-tab:hover {
+	background: url(imgs/home-tab-app-builder-icon-hover.png) no-repeat center 35px;
+}
+
+.farmer-tab {
+	background: url(imgs/home-tab-farmer-icon.png) no-repeat center 35px;
+	margin:10px 0!important;
+	width:77px;
+	height:92px;
+}
+
+
+.farmer-tab:hover {
+	background: url(imgs/home-tab-farmer-icon-hover.png) no-repeat center 35px;
+}
+
+
+.tell-me-more-tab {
+	border-top: 1px solid #E2E2E2;
+	display:block;
+	clear:both;
+}
+
+.tell-me-more-tab p {
+	padding:20px;
+}
+
+
+/*******************************************************************************
+
+Safecoin Page Styles
+
+*******************************************************************************/
+
+#safecoin h2 { text-align:center;}
+
+.safecoin-logo-sml { float:right;}
+
+table {
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+
+.table th {
+  font-weight: bold;
+}
+
+.table thead th {
+  vertical-align: bottom;
 }
 
 
@@ -2387,6 +2504,20 @@ a.light-button-full {
 	background-position:230px 860px;
 }
 
+/********* Get Involved Page ************/
+.get-involved-tabs {
+	margin-bottom:30px;
+}
+
+.get-involved-tabs p {
+	font-size:22px;
+	padding:95px 20px 25px 20px;
+	line-height:26px;
+}
+
+.tell-me-more-tab p {
+	padding:20px;
+}
 /*********** Company Page ***************/
 .main-content .col-3 {
 	width: 146px;
@@ -2861,6 +2992,22 @@ a.light-button-full {
 #core-developer .app-stack {
 	background-position:170px 910px;
 	background-size:180px 132px;
+}
+
+
+/********* Get Involved Page ************/
+.get-involved-tabs {
+	margin-bottom:30px;
+}
+
+.get-involved-tabs p {
+	font-size:18px;
+	padding:95px 10px 25px 10px;
+	line-height:22px;
+}
+
+.tell-me-more-tab p {
+	padding:20px;
 }
 
 /*********** Company Page ***************/
@@ -3585,6 +3732,20 @@ a.light-button-full {
 	background-size:180px 132px;
 }
 
+/********* Get Involved Page ************/
+
+.get-involved-tabs p {
+	border-bottom:1px solid #E2E2E2;
+}
+
+
+.farmer-tab {
+    height: auto;
+}
+
+.tell-me-more-tab {
+	border-top:0;
+}
 /*********** Company Page ***************/
 .main-content .col-3 {
 	width: 90%;
