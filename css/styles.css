@@ -468,10 +468,11 @@ header {
 #testimonials .menu .overview a,
 #safecoin .menu .overview a,
 #get-involved .menu .get-involved a,
-#app-builder .menu .core-developer a,
-#platform-libraries .menu .core-developer a,
+#core-developer .menu .get-involved a,
+#app-builder .menu .get-involved a,
+#farmers .menu .get-involved a,
+#platform-libraries .menu .get-involved a,
 #company .menu .company a,
-#farmers .menu .farmers a,
 #careers .menu .company a,
 #stakeholders .menu .stakeholders a,
 #blog .menu .blog a,
@@ -487,14 +488,17 @@ header {
 #platform-faqs ul.leftnav .faqs a,
 #platform-use-cases ul.leftnav .usecases a,
 #licensing-platform ul.leftnav .licensing a,
-#testimonials ul.leftnav .testimonials a  {
+#testimonials ul.leftnav .testimonials a,
+#safecoin ul.leftnav .safecoin a  {
 	color:#5593D7;
 }
 
 /******** Developers - Left nav selected state styles ********/
+#get-involved ul.leftnav .get-involved a,
 #core-developer ul.leftnav .core-developer a,
 #platform-libraries ul.leftnav .libraries a,
-#app-builder ul.leftnav .app-builder a {
+#app-builder ul.leftnav .app-builder a,
+#farmers ul.leftnav .farmers a {
 	color:#5593D7;
 }
 
