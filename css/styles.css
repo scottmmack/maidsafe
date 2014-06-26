@@ -1170,6 +1170,11 @@ Safecoin Page Styles
 
 *******************************************************************************/
 
+h1.safecoin-head {
+	background:url(imgs/safecoin_head.png) 0 0 no-repeat;
+	display:block;
+	text-indent:-9999px;
+}
 #safecoin h2 { text-align:center;}
 
 .safecoin-logo-sml { float:right;}
