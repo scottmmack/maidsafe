@@ -472,6 +472,11 @@ header {
 #app-builder .menu .get-involved a,
 #farmers .menu .get-involved a,
 #platform-libraries .menu .get-involved a,
+#documents .menu .documents a,
+#examples .menu .documents a,
+#system-docs .menu .documents a,
+#developer-wiki .menu .documents a,
+#papers-publications .menu .documents a,
 #company .menu .company a,
 #careers .menu .company a,
 #stakeholders .menu .stakeholders a,
@@ -493,12 +498,21 @@ header {
 	color:#5593D7;
 }
 
-/******** Developers - Left nav selected state styles ********/
+/******** Get Involved - Left nav selected state styles ********/
 #get-involved ul.leftnav .get-involved a,
 #core-developer ul.leftnav .core-developer a,
 #platform-libraries ul.leftnav .libraries a,
 #app-builder ul.leftnav .app-builder a,
 #farmers ul.leftnav .farmers a {
+	color:#5593D7;
+}
+
+/******** Documents - Left nav selected state styles ********/
+#documents ul.leftnav .documents a,
+#examples ul.leftnav .examples a,
+#system-docs ul.leftnav .system-docs a,
+#developer-wiki ul.leftnav .developer-wiki a,
+#papers-publications ul.leftnav .papers-publications a {
 	color:#5593D7;
 }
 
@@ -1161,6 +1175,21 @@ Get Involved Page Styles
 
 .tell-me-more-tab p {
 	padding:20px;
+}
+
+.farmers-text {
+	background: url(imgs/home-tab-farmer-icon.png) no-repeat 1px 5px;
+	padding:0 0 0 105px;
+}
+
+.app-builders-text {
+	background: url(imgs/home-tab-app-builder-icon.png) no-repeat left 5px;
+	padding:0 0 0 105px;
+}
+
+.core-developers-text {
+	background: url(imgs/home-tab-core-dev-icon.png) no-repeat 8px 5px;
+	padding:0 0 0 105px;
 }
 
 
