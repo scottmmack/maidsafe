@@ -1484,6 +1484,41 @@ Libraries Page Styles
 	padding:15px 0 0 75px;
 }
 
+/*******************************************************************************
+
+Documents Page Styles
+
+*******************************************************************************/
+
+
+.examples-tab, .system-docs-tab, .developer-wiki-tab, .papers-publications-tab {
+	height:140px;
+	margin-top:30px;
+}
+.examples-tab h2, .system-docs-tab h2, .developer-wiki-tab h2, .papers-publications-tab h2 {
+	font-family: 'OpenSansLight', Arial, sans-serif;
+	margin:0px;
+	color: #5593D7;
+	font-size:14px;
+}
+a.examples-tab, a.system-docs-tab, a.developer-wiki-tab, a.papers-publications-tab {
+	text-decoration:none;
+	text-align:center;
+}
+
+.examples-tab {
+	background:url(imgs/documents_examples_icon.png) no-repeat center 40px;
+}
+.system-docs-tab {
+	background:url(imgs/documents_system_docs_icon.png) no-repeat center 30px;
+}
+.developer-wiki-tab {
+	background:url(imgs/documents_developer_wiki_icon.png) no-repeat center 30px;
+}
+.papers-publications-tab {
+	background:url(imgs/documents_papers_publications_icon.png) no-repeat center 35px;
+}
+
 
 /*******************************************************************************
 
