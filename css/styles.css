@@ -1455,6 +1455,29 @@ Libraries Page Styles
 	padding:15px 0 0 75px;
 }
 
+
+/*******************************************************************************
+
+Papers and Publication Page Styles
+
+*******************************************************************************/
+
+ul.pdf-group li { list-style:none;}
+
+ul.pdf-group li:before {
+	content:"";
+	background:url(imgs/pdf_icon.png) no-repeat 0 0;
+	display:inline-block;
+	width:20px;
+	height:21px;
+	margin-right:10px;
+	position:relative;
+	top:4px;
+}
+
+ul.pdf-group li  a { }
+
+
 /*******************************************************************************
 
 Company Page Styles
