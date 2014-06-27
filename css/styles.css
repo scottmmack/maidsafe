@@ -463,7 +463,7 @@ header {
 #platform-overview .menu .overview a,
 #platform-features .menu .overview a,
 #platform-faqs .menu .overview a,
-#platform-use-cases .menu .overview a,
+#applications .menu .overview a,
 #licensing-platform .menu .overview a,
 #testimonials .menu .overview a,
 #safecoin .menu .overview a,
@@ -486,7 +486,7 @@ header {
 #platform-overview ul.leftnav .overview a,
 #platform-features ul.leftnav .features a,
 #platform-faqs ul.leftnav .faqs a,
-#platform-use-cases ul.leftnav .usecases a,
+#applications ul.leftnav .applications a,
 #licensing-platform ul.leftnav .licensing a,
 #testimonials ul.leftnav .testimonials a,
 #safecoin ul.leftnav .safecoin a  {
