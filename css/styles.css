@@ -1232,7 +1232,12 @@ h2.faq-technical {
 	float:left;
 }
 
-h3.question { margin:10px 0 5px 0; float:left; font-size:16px; clear:both; font-family: 'OpenSansRegular', Arial, sans-serif; }
+h3.question {
+	margin:10px 0 5px 0;
+	font-size:16px;
+	clear:both;
+	font-family: 'OpenSansRegular', Arial, sans-serif;
+}
 h3.question a {
 	text-decoration: none;
 	display: block;
