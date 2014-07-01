@@ -1325,6 +1325,19 @@ h3.question a {
 }
 
 
+
+
+
+#platform-faqs .main-content ul li {
+    padding-left: 0px;
+    text-indent: 0em;
+}
+
+#platform-faqs .main-content ul li:before {
+    content: normal;
+}
+
+
 /*******************************************************************************
 
 Licensing Page Styles
@@ -1860,7 +1873,7 @@ Contact Page Styles
 
 *******************************************************************************/
 #contact .col-l {
-	padding-right:20px;
+	padding-right:70px;
 }
 #contact .col-m {
     padding: 0 80px;
@@ -1875,7 +1888,6 @@ Contact Page Styles
 }
 #contact .main-content a {
 	margin-bottom:40px;
-	font-size:12px;
 	display:block;
 }
 #contact textarea {
@@ -1883,6 +1895,32 @@ Contact Page Styles
 }
 
 #contact p.tel { margin-bottom:20px;}
+
+
+ul.social li {text-indent: 3.4em;}
+
+ul.social li:before {
+	content:"";
+}
+
+ul.social li a {
+	font-size:16px;
+	text-decoration:none;
+	height:40px;
+	margin-bottom:20px!important;
+}
+.twitter-icon {
+	background:url(imgs/icon_twitter.png) no-repeat 0 0;
+	padding-top:5px;
+}
+.contact-icon {
+	background:url(imgs/icon_contact.png) no-repeat 0 0;
+	padding-top:2px;
+}
+.mumble-icon {
+	background:url(imgs/icon_mumble.png) no-repeat 0 0;
+	padding-top:8px;
+}
 
 /*******************************************************************************
 
