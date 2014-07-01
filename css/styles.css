@@ -1232,10 +1232,13 @@ h2.faq-technical {
 	float:left;
 }
 
+#platform-faqs .main-content ul li { margin-bottom:0px;}
+
 h3.question {
 	margin:10px 0 5px 0;
 	font-size:16px;
 	clear:both;
+	float:left;
 	font-family: 'OpenSansRegular', Arial, sans-serif;
 }
 h3.question a {

@@ -126,5 +126,15 @@
 <script type="text/javascript" src="js/js.js"></script>
 [% END %]
 
+[% IF includeSearch == true %]
+<script src="js/list.js"></script>
+<script>
+var options = {
+  valueNames: [ 'question', 'toggle_answer' ]
+};
+var userList = new List('faqs', options);
+</script>
+[% END %]
+
 </body>
 </html>
