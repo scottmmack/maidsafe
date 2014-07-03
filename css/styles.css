@@ -1106,18 +1106,32 @@ Get Involved Page Styles
 *******************************************************************************/
 
 .farmers-text {
-	background: url(imgs/home-tab-farmer-icon.png) no-repeat 1px 5px;
-	padding:0 0 0 105px;
+	padding:0;
+}
+.farmers-text img {
+	display:inline-block;
+	float:left;
+	margin:5px 30px 20px 0;
+}
+
+.app-builders-text img {
+	display:inline-block;
+	float:left;
+	margin:5px 30px 10px 0;
+}
+
+.core-developers-text img {
+	display:inline-block;
+	float:left;
+	margin:5px 38px 40px 8px;
 }
 
 .app-builders-text {
-	background: url(imgs/home-tab-app-builder-icon.png) no-repeat left 5px;
-	padding:0 0 0 105px;
+	padding:0;
 }
 
 .core-developers-text {
-	background: url(imgs/home-tab-core-dev-icon.png) no-repeat 8px 5px;
-	padding:0 0 0 105px;
+	padding:0;
 }
 
 
@@ -1260,10 +1274,6 @@ h3.question a {
 	margin:0px;
 }
 
-
-
-
-
 #platform-faqs .main-content ul li {
     padding-left: 0px;
     text-indent: 0em;
@@ -1271,6 +1281,16 @@ h3.question a {
 
 #platform-faqs .main-content ul li:before {
     content: normal;
+}
+
+.search-box {
+	margin:0px;
+}
+
+.search-input {
+	font-size: 14px;
+    padding: 4px 10px;
+	width:90%;
 }
 
 
