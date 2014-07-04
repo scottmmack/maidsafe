@@ -479,7 +479,7 @@ header {
 #developer-wiki .menu .documents a,
 #papers-publications .menu .documents a,
 #company .menu .company a,
-=======
+/*
 #platform-use-cases .menu .overview a,
 #licensing-platform .menu .overview a,
 #testimonials .menu .overview a,
@@ -488,7 +488,7 @@ header {
 #platform-libraries .menu .core-developer a,
 #company .menu .company a,
 #farmers .menu .farmers a,
->>>>>>> upstream/master
+*/
 #careers .menu .company a,
 #stakeholders .menu .stakeholders a,
 #blog .menu .blog a,
@@ -525,18 +525,6 @@ header {
 #system-docs ul.leftnav .system-docs a,
 #developer-wiki ul.leftnav .developer-wiki a,
 #papers-publications ul.leftnav .papers-publications a {
-=======
-#platform-use-cases ul.leftnav .usecases a,
-#licensing-platform ul.leftnav .licensing a,
-#testimonials ul.leftnav .testimonials a  {
-	color:#5593D7;
-}
-
-/******** Developers - Left nav selected state styles ********/
-#core-developer ul.leftnav .core-developer a,
-#platform-libraries ul.leftnav .libraries a,
-#app-builder ul.leftnav .app-builder a {
->>>>>>> upstream/master
 	color:#5593D7;
 }
 
@@ -586,14 +574,10 @@ header {
 #article-business-insider-01-06-14 .pressnav .article-business-insider-01-06-14 a,
 #article-the-scotsman-15-06-14 .pressnav .article-the-scotsman-15-06-14 a,
 #article-bitcoin-uk-media-15-06-14 .pressnav .article-bitcoin-uk-media-15-06-14 a,
-<<<<<<< HEAD
-#article-world-crypto-network-18-06-14 .pressnav .article-world-crypto-network-18-06-14 a  {
-=======
 #article-world-crypto-network-18-06-14 .pressnav .article-world-crypto-network-18-06-14 a,
 #article-coindesk-25-06-14 .pressnav .article-coindesk-25-06-14 a,
 #article-computer-america-26-06-14 .pressnav .article-computer-america-26-06-14 a,
 #article-you-me-btc-02-07-2014 .pressnav .article-you-me-btc-02-07-2014 a  {
->>>>>>> upstream/master
 	color:#5593D7!important;
 }
 
@@ -1084,12 +1068,7 @@ a.button-blue {
 	text-align:center;
 }
 
-<<<<<<< HEAD
 a.light-button, a.light-button-full {
-=======
-a.light-button, a.light-button-full,
-a.green-button, a.green-button-full {
->>>>>>> upstream/master
 	background-color:#c5d9f1;
 	font-size:18px;
 	text-align:center;
@@ -1097,29 +1076,16 @@ a.green-button, a.green-button-full {
 	text-decoration:none;
 }
 
-<<<<<<< HEAD
 a.light-button:hover, a.light-button-full:hover {
-=======
-a.light-button:hover, a.light-button-full:hover,
-a.green-button:hover, a.green-button-full:hover {
->>>>>>> upstream/master
 	background-color:#5593D7;
 	color:#ffffff;
 }
 
-<<<<<<< HEAD
 a.light-button {
 	padding:20px 0;
 }
 
 a.light-button-full {
-=======
-a.light-button, a.green-button {
-	padding:20px 0;
-}
-
-a.light-button-full, a.green-button-full {
->>>>>>> upstream/master
 	padding:20px 31px;
 }
 
@@ -1150,7 +1116,6 @@ a.last-button {
 
 /*******************************************************************************
 
-<<<<<<< HEAD
 Get Involved Page Styles
 
 *******************************************************************************/
@@ -1240,8 +1205,6 @@ table {
 
 /*******************************************************************************
 
-=======
->>>>>>> upstream/master
 Libraries Page Styles
 
 *******************************************************************************/
@@ -1277,7 +1240,6 @@ Use Cases Page Styles
 	margin-bottom:25px;
 }
 
-<<<<<<< HEAD
 /*******************************************************************************
 
 FAQs Page Styles
@@ -1355,9 +1317,6 @@ h3.question a {
     padding: 4px 10px;
 	width:90%;
 }
-
-=======
->>>>>>> upstream/master
 
 /*******************************************************************************
 
@@ -1520,7 +1479,6 @@ Libraries Page Styles
 
 /*******************************************************************************
 
-<<<<<<< HEAD
 Documents Page Styles
 
 *******************************************************************************/
@@ -1579,8 +1537,6 @@ ul.pdf-group li  a { }
 
 /*******************************************************************************
 
-=======
->>>>>>> upstream/master
 Company Page Styles
 
 *******************************************************************************/
@@ -1897,11 +1853,7 @@ Contact Page Styles
 
 *******************************************************************************/
 #contact .col-l {
-<<<<<<< HEAD
 	padding-right:70px;
-=======
-	padding-right:20px;
->>>>>>> upstream/master
 }
 #contact .col-m {
     padding: 0 80px;
@@ -1916,10 +1868,6 @@ Contact Page Styles
 }
 #contact .main-content a {
 	margin-bottom:40px;
-<<<<<<< HEAD
-=======
-	font-size:12px;
->>>>>>> upstream/master
 	display:block;
 }
 #contact textarea {
@@ -1927,8 +1875,6 @@ Contact Page Styles
 }
 
 #contact p.tel { margin-bottom:20px;}
-
-<<<<<<< HEAD
 
 ul.social li {text-indent: 3.4em;}
 
@@ -1955,8 +1901,6 @@ ul.social li a {
 	padding-top:8px;
 }
 
-=======
->>>>>>> upstream/master
 /*******************************************************************************
 
 SureFile Tutorial Page Styles
@@ -2377,11 +2321,7 @@ ul.social-links li a {
 .legal {
 	font-size: 12px;
 	font-weight: 400;
-<<<<<<< HEAD
 	padding-top:20px;
-=======
-	padding-top:25px;
->>>>>>> upstream/master
 	width:60%;
 	float:left;
 	line-height: 20px;
@@ -2466,11 +2406,7 @@ header {
 
 .menu ul li {
 	display: inline-block;
-<<<<<<< HEAD
 	margin-left:16px;
-=======
-	margin-left:18px;
->>>>>>> upstream/master
 }
 
 
@@ -2731,7 +2667,6 @@ a.light-button-full {
 	background-position:230px 860px;
 }
 
-<<<<<<< HEAD
 /********* Get Involved Page ************/
 .get-involved-tabs {
 	margin-bottom:30px;
@@ -2746,8 +2681,6 @@ a.light-button-full {
 .tell-me-more-tab p {
 	padding:20px;
 }
-=======
->>>>>>> upstream/master
 /*********** Company Page ***************/
 .main-content .col-3 {
 	width: 146px;
@@ -2957,11 +2890,7 @@ header {
 
 .menu ul li {
 	display: inline-block;
-<<<<<<< HEAD
 	margin-left:5px;
-=======
-	margin-left:6px;
->>>>>>> upstream/master
 }
 
 .menu ul li a {
@@ -3228,8 +3157,6 @@ a.light-button-full {
 	background-size:180px 132px;
 }
 
-<<<<<<< HEAD
-
 /********* Get Involved Page ************/
 .get-involved-tabs {
 	margin-bottom:30px;
@@ -3245,8 +3172,6 @@ a.light-button-full {
 	padding:20px;
 }
 
-=======
->>>>>>> upstream/master
 /*********** Company Page ***************/
 .main-content .col-3 {
 	width: 108px;
@@ -3969,7 +3894,6 @@ a.light-button-full {
 	background-size:180px 132px;
 }
 
-<<<<<<< HEAD
 /********* Get Involved Page ************/
 
 .get-involved-tabs p {
@@ -3984,8 +3908,7 @@ a.light-button-full {
 .tell-me-more-tab {
 	border-top:0;
 }
-=======
->>>>>>> upstream/master
+
 /*********** Company Page ***************/
 .main-content .col-3 {
 	width: 90%;
