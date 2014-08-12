@@ -575,7 +575,10 @@ header {
 #article-world-crypto-network-18-06-14 .pressnav .article-world-crypto-network-18-06-14 a,
 #article-coindesk-25-06-14 .pressnav .article-coindesk-25-06-14 a,
 #article-computer-america-26-06-14 .pressnav .article-computer-america-26-06-14 a,
-#article-you-me-btc-02-07-2014 .pressnav .article-you-me-btc-02-07-2014 a  {
+#article-you-me-btc-02-07-2014 .pressnav .article-you-me-btc-02-07-2014 a,
+#article-world-crypto-network-10-07-14 .pressnav .article-world-crypto-network-10-07-14 a,
+#article-coindesk-12-07-14 .pressnav .article-coindesk-12-07-14 a,
+#article-techcrunch-24-07-14 .pressnav .article-techcrunch-24-07-14 a  {
 	color:#5593D7!important;
 }
 
@@ -1481,6 +1484,36 @@ Documents Page Styles
 
 *******************************************************************************/
 
+.doc-box-examples,
+.doc-box-system-docs,
+.doc-box-dev-wiki,
+.doc-box-papers-publications { 
+	padding:20px 0px 10px 0px;
+	background-color:#eef4fa;
+	margin-bottom:20px;
+}
+
+.doc-box-dev-wiki { clear:both;}
+
+.doc-box-examples h2,
+.doc-box-system-docs h2,
+.doc-box-dev-wiki h2,
+.doc-box-papers-publications h2 {
+	margin-top:0px;
+	padding:0 15px;
+}
+
+.doc-box-examples p,
+.doc-box-system-docs p,
+.doc-box-dev-wiki p,
+.doc-box-papers-publications p {
+	padding:0 15px;
+}
+
+.doc-box-examples ul,
+.doc-box-system-docs ul,
+.doc-box-dev-wiki ul,
+.doc-box-papers-publications ul {padding:0 15px;}
 
 .examples-tab, .system-docs-tab, .developer-wiki-tab, .papers-publications-tab {
 	height:140px;
