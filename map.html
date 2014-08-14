@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style type="text/css">
+.pod-map {
+	background:url(images/map.png) no-repeat 0 0;
+	width:991px;
+	height:631px;
+}
+.area {
+	opacity:0;
+height:37px;
+position:absolute;
+width:31px;
+text-decoration:none;
+}
+#sanfrancisco-pod {
+left:174px;
+top:244px;
+padding:10px 0 10px 32px;
+width:135px;
+}
+#boston {
+left:282px;
+top:241px;
+padding:10px 0 10px 32px;
+width:100px;
+}
+#montreal-pod {
+left:300px;
+top:213px;
+padding:10px 0 10px 32px;
+width:100px;
+}
+#sanfrancisco-pod:hover {
+	display:block;
+background:url(css/imgs/pod_icon_hover_sanfrancisco.png) no-repeat 0 0;
+background-size:135px 43px;
+opacity:1;
+}
+
+#boston:hover, #montreal-pod:hover {
+	opacity:1;
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="pod-map">
+	<a id="sanfrancisco-pod" class="area" href="#">San Francisco</a>
+<a id="boston" class="area" href="#">Boston</a>
+<a id="montreal-pod" class="area" href="#">Montreal</a>
+</div>
+
+
+</body>
+</html>

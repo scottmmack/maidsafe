@@ -472,6 +472,7 @@ header {
 #app-builder .menu .get-involved a,
 #farmers .menu .get-involved a,
 #platform-libraries .menu .get-involved a,
+#safe-pods .menu .get-involved a,
 #documents .menu .documents a,
 #examples .menu .documents a,
 #system-docs .menu .documents a,
@@ -513,7 +514,8 @@ header {
 #core-developer ul.leftnav .core-developer a,
 #platform-libraries ul.leftnav .libraries a,
 #app-builder ul.leftnav .app-builder a,
-#farmers ul.leftnav .farmers a {
+#farmers ul.leftnav .farmers a,
+#safe-pods ul.leftnav .safe-pods a {
 	color:#5593D7;
 }
 
@@ -713,6 +715,34 @@ Banner Styles
 	display:inline-block;
 	width:150px;
 	height:40px;
+}
+
+/*******************************************************************************
+
+Sidebar Styles
+
+*******************************************************************************/
+
+.sidebar { float:right; /*width:156px!important;*/}
+.sidebar img {margin:10px 0;}
+.sidebar p {
+	font-family: 'OpenSansLight', Arial, sans-serif;
+	color:#5593D7;
+	text-align:center;
+	font-size:18px;
+	margin-bottom:0px;
+}
+
+.sidebar .divider {
+	background:url(imgs/sidebar_arrow_divider.png) no-repeat 0 0;
+	width:100%; /*156*/
+	height:15px;
+	margin:10px 0;
+}
+.community-text {
+	border-top:1px solid #E2E2E2;
+	padding-top:20px;
+	padding-bottom:10px;
 }
 
 /*******************************************************************************
@@ -984,47 +1014,79 @@ p {
 Platform Page Styles
 
 *******************************************************************************/
+#platform-libraries .main-content h2 { margin-top:10px!important;}
 
 #platform-features h2 {
 	font-family: 'OpenSansRegular', Arial, sans-serif;
 }
 
-#platform-features section {
+#platform-libraries section {
 	background:url(imgs/content_divider.png) repeat-x bottom center;
 	padding-bottom:5px;
 	margin-bottom:25px;
 }
 
-h2.maidsafe-head {background:url(imgs/icon-maidsafe.png) no-repeat 0 0;}
-h2.common-head {background:url(imgs/icon-common.png) no-repeat 0 0; }
-h2.drive-head {background:url(imgs/icon-drive.png) no-repeat 0 0; }
-h2.rudp-head {background:url(imgs/icon-rudp.png) no-repeat 0 0; }
-h2.routing-head {background:url(imgs/icon-routing.png) no-repeat 0 0; }
-h2.encrypt-head {background:url(imgs/icon-encrypt.png) no-repeat 0 0; }
-h2.passport-head {background:url(imgs/icon-passport.png) no-repeat 0 0;}
-h2.nfs-head {background:url(imgs/icon-nfs.png) no-repeat 0 0;}
-h2.vault-head {background:url(imgs/icon-vault.png) no-repeat 0 0;}
-h2.api-head {background:url(imgs/icon-api.png) no-repeat 0 0;}
-h2.manager-head {background:url(imgs/icon-manager.png) no-repeat 0 0;}
-
-h2.maidsafe-head,
-h2.common-head,
-h2.drive-head,
-h2.rudp-head,
-h2.routing-head,
-h2.encrypt-head,
-h2.passport-head,
-h2.nfs-head,
-h2.vault-head,
-h2.api-head,
-h2.manager-head {
+#platform-libraries h2 {
 	font-family: 'OpenSansLight', Arial, sans-serif!important;
 	background-size:30px 30px;
 	line-height:30px;
-	padding-left:40px;
 	color: #3A93D7;
     font-size: 30px;
 }
+
+#platform-libraries section { float:left;}
+#platform-libraries section div { margin:0;}
+#platform-libraries section p { padding-right:60px;}
+
+/*
+.more-info { padding-top:16%;}
+*/
+
+a.moreinfo {
+    width:100%;
+	float:right;
+	margin:0 0 30px 50px;
+}
+
+a.moreinfo:hover:after {
+	background:#CBE1F4;
+}
+
+a.moreinfo:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+    background: #4679BD;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+a.moreinfo div {
+    float:left;
+    width:100%;
+    padding-top:50%;
+    line-height: 15px;
+    margin-top: -14px!important;
+    text-align:center;
+    color:white;
+}
+
+a.moreinfo div:hover {color:#5593D7;}
+
+.libraries-maidsafe { position:relative; top:50px;}
+.libraries-common { position:relative; top:6px;}
+.libraries-drive { position:relative; top:17px;}
+.libraries-reliable-udp { position:relative; top:85px;}
+.libraries-routing { position:relative; top:30px;}
+.libraries-encrypt { position:relative; top:115px;}
+.libraries-passport { position:relative; top:115px;}
+.libraries-network-file-system { position:relative; top:45px;}
+.libraries-vault { position:relative; top:115px;}
+.libraries-vault-manager { position:relative; top:60px;}
+.libraries-api { position:relative; top:120px;}
 
 
 /*******************************************************************************
@@ -1428,6 +1490,16 @@ li.list-quote {
 }
 .list-quote p.quoter {
 	padding:0 60px;
+}
+
+/*******************************************************************************
+
+SAFE Pods Page Styles
+
+*******************************************************************************/
+
+#safe-pods .main-content p {
+	padding-right:50px;
 }
 
 /*******************************************************************************
@@ -2657,6 +2729,18 @@ p.alpha-testers {
 .article-2 {  padding-left:15px;}
 
 
+/*********** Sidebar **************/
+
+.sidebar p {
+	font-size:14px;
+}
+
+.sidebar .divider {
+	width:100%; /*156*/
+	height:10px;
+	background-size:100px 10px;
+}
+
 /*********** Developers Page **************/
 
 a.get-started-button {
@@ -2822,6 +2906,12 @@ a.gpl-license, a.commercial-license, a.contributor-agreement {
 }
 .download-license-box-last {
 	margin:0px 0px 30px 0;
+}
+
+/******* Libraries Platform Page Styles ********/
+
+a.moreinfo div {
+    font-size:11px;
 }
 
 /******* Libraries Page Styles ********/
@@ -3150,6 +3240,24 @@ ul.leftnav li ul li a {
 	padding-bottom:20px;
 }
 
+/*********** Sidebar **************/
+
+.sidebar img {margin:5px 0;}
+.sidebar p {
+	font-size:12px;
+}
+
+.sidebar .divider {
+	width:100%; /*156*/
+	height:7px;
+	background-size:70px 7px;
+	margin:5px 0;
+}
+.community-text {
+	padding-top:15px;
+	padding-bottom:5px;
+}
+
 /*********** Developers Page **************/
 
 a.get-started-button {
@@ -3337,6 +3445,38 @@ a.gpl-license, a.commercial-license, a.contributor-agreement {
 
 section .grid-4 {
 	width:100%!important;
+}
+
+/******* Libraries Platform Page Styles ********/
+
+#platform-libraries .grid-1 { width:40px;}
+
+a.moreinfo {
+    width:100%;
+	float:right;
+	margin:0 0 30px 50px;
+}
+
+a.moreinfo:after {
+    display: block;
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+    background: #4679BD;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+a.moreinfo div {
+    float:left;
+    width:100%;
+    padding-top:50%;
+    line-height: 15px;
+    margin-top: -14px!important;
+    text-align:center;
+    color:white;
+	font-size:12px;
 }
 
 
@@ -3612,6 +3752,20 @@ a.menu-link {
 	left: auto; top:auto;
 	box-shadow: none; 
 	border:none;
+}
+
+/*********** Sidebar **************/
+
+.sidebar img {margin:5px auto; text-align:center; display:block;}
+
+.sidebar .divider {
+	width:100%; /*156*/
+	margin:10px auto;
+	background-position:center;
+}
+.community-text {
+	padding-top:15px;
+	padding-bottom:5px;
 }
 
 /************************ Banner Styles **************************/
@@ -4019,6 +4173,33 @@ a.applyhere {
 #libraries .main-content {
 	margin-bottom:0px;
 }
+
+/******* Libraries Platform Page Styles ********/
+
+#platform-libraries .grid-1 { }
+
+a.moreinfo {
+    width:20%;
+	float:right;
+	padding-right: 40%;
+}
+
+a.moreinfo div {
+	font-size:14px;
+}
+
+.libraries-maidsafe {top:0px;}
+.libraries-common {  top:0px;}
+.libraries-drive { top:0px;}
+.libraries-reliable-udp { top:0px;}
+.libraries-routing { top:0px;}
+.libraries-encrypt { top:0px;}
+.libraries-passport { top:0px;}
+.libraries-network-file-system {top:0px;}
+.libraries-vault {top:0px;}
+.libraries-vault-manager {top:0px;}
+.libraries-api { top:0px;}
+
 /*********** License Page Styles *************/
 #licensing .main-content {
     margin-bottom:0px;
