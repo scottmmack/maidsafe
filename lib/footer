@@ -109,11 +109,11 @@
 [% END %]
 
 [% IF includeGridLoad == true %]
-  <script src="js/modernizr.custom.js"></script>
-  <script src="js/masonry.pkgd.min.js"></script>
-  <script src="js/imagesloaded.js"></script>
-  <script src="js/classie.js"></script>
-  <script src="js/AnimOnScroll.js"></script>
+  <script src="js/gridload/modernizr.custom.js"></script>
+  <script src="js/gridload/masonry.pkgd.min.js"></script>
+  <script src="js/gridload/imagesloaded.js"></script>
+  <script src="js/gridload/classie.js"></script>
+  <script src="js/gridload/AnimOnScroll.js"></script>
   <script>
 			new AnimOnScroll( document.getElementById( 'grid' ), {
 				minDuration : 0.4,

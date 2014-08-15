@@ -1958,8 +1958,11 @@ ul.top-stories {
 	background:rgba(85,147,215,0.18);
 	display:block;
 	clear:both;
-	height:355px;
 	padding-top:10px;
+}
+
+ul.top-stories .press-article {
+	min-height:0px;
 }
 
 #press .pr-image {
@@ -4445,6 +4448,26 @@ h2.distribute-head {
 #company .col-r {
 	margin:0 0 20px 0px;
 }
+
+
+/*********** Press Page Styles *************/
+ul.top-stories .press-article {
+	margin: 0 auto;
+	text-align:center;
+	padding:0 5%;
+	width:90%;
+}
+
+.press-article { margin-bottom:30px;}
+
+/*
+ul.grid {
+	width:90%;
+	padding:0 5%;
+}
+*/
+
+
 
 
 /************* Contact Page Styles ***************/
