@@ -1629,12 +1629,16 @@ Documents Page Styles
 .doc-box-system-docs,
 .doc-box-dev-wiki,
 .doc-box-papers-publications { 
-	padding:20px 0px 10px 0px;
+	padding:20px 0px 0px 0px;
 	background-color:#eef4fa;
 	margin-bottom:20px;
 }
 
-.doc-box-dev-wiki { clear:both;}
+.doc-box-papers-publications {
+	float:right;
+	background:#eef4fa url(imgs/page_top_right.png) no-repeat top right;
+	height:623px;
+}
 
 .doc-box-examples h2,
 .doc-box-system-docs h2,
@@ -1649,6 +1653,13 @@ Documents Page Styles
 .doc-box-dev-wiki p,
 .doc-box-papers-publications p {
 	padding:0 15px;
+}
+
+.doc-box-examples a,
+.doc-box-system-docs a,
+.doc-box-dev-wiki a,
+.doc-box-papers-publications a {
+	text-decoration:none;
 }
 
 .doc-box-examples ul,
@@ -1682,6 +1693,30 @@ a.examples-tab, a.system-docs-tab, a.developer-wiki-tab, a.papers-publications-t
 }
 .papers-publications-tab {
 	background:url(imgs/documents_papers_publications_icon.png) no-repeat center 35px;
+}
+
+p.call-to {
+	background:#C9E0F2;
+	padding:10px 0px;
+	margin-bottom:0px;
+	text-transform:uppercase;
+	
+}
+
+p.call-to a {
+	margin-left:20px;
+	text-decoration:none;
+	color:rgba(85,147,215,1);
+	padding:0 30px;
+	background:url(imgs/arrow_link_bg.png) no-repeat top left;
+	height:22px;
+	display:block;
+	line-height:23px;
+}
+
+p.call-to a:hover {
+	color:#000;
+	background-position:bottom left;
 }
 
 
@@ -2892,6 +2927,13 @@ a.light-button-full {
 .tell-me-more-tab p {
 	padding:20px;
 }
+
+/*********** Documents Page ***************/
+
+.doc-box-papers-publications {
+	height:727px;
+}
+
 /*********** Company Page ***************/
 .main-content .col-3 {
 	width: 146px;
@@ -3443,6 +3485,36 @@ a.light-button-full {
 
 .tell-me-more-tab p {
 	padding:20px;
+}
+
+.doc-box-papers-publications {
+    height: 717px;
+}
+
+.doc-box-examples a,
+.doc-box-system-docs a,
+.doc-box-dev-wiki a,
+.doc-box-papers-publications a {
+	font-size:12px;
+}
+
+.doc-box-papers-publications li a { 
+	font-size:11px;
+	margin:0px;
+	text-indent:0px;
+} 
+
+ul.pdf-group li:before {
+	background-size:12px 15px;
+    height: 20px;
+    margin-right: 2px;
+    top: 8px;
+    width: 15px;
+}
+
+#documents .main-content ul li {
+	padding-left:0px;
+	text-indent:0px;
 }
 
 /*********** Company Page ***************/
@@ -4340,6 +4412,12 @@ a.applyhere {
 	right:-6px;
 	margin:20px 0 0 20px;
 
+}
+
+/******************* Documents Page **********************/
+
+.doc-box-papers-publications {
+    height:auto;
 }
 
 /******************* Libraries Page **********************/
