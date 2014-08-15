@@ -1095,8 +1095,6 @@ Developers Page Styles
 
 *******************************************************************************/
 
-
-
 a.get-started-button {
 	/*background:#5593D7 url(imgs/hammer_icon.png) no-repeat 195px 10px;*/
 	background:#5593D7;
@@ -1263,6 +1261,77 @@ table {
 
 .table thead th {
   vertical-align: bottom;
+}
+
+/*******************************************************************************
+
+Features Page Styles
+
+*******************************************************************************/
+
+#platform-features .main-content ul li {
+	text-indent:0px;
+	padding-left:0px;
+}
+
+#platform-features .main-content ul li:before {
+	content:"";
+}
+
+#platform-features .heavy {
+	font-family:'OpenSansBold', Arial, sans-serif;
+}
+
+.last-col {
+	margin-left:50px;
+}
+
+h2.noservers-head {
+	background:url(imgs/features_noservers_header.png) no-repeat 0 0;
+	padding:10px 0 23px 15px;
+	font-size:22px;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+h2.administrators-head {
+	background:url(imgs/features_administrators_header.png) no-repeat 0 0;
+	padding:8px 75px 13px 15px;
+	font-size:16px;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+h2.datamanage-head {
+	background:url(imgs/features_datamanage_header.png) no-repeat 0 0;
+	padding:4px 60px 23px 15px;
+	font-size:16px;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+h2.password-head {
+	background:url(imgs/features_password_header.png) no-repeat 0 0;
+	padding:6px 62px 21px 15px;
+	font-size:16px;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+h2.sharedata-head {
+	background:url(imgs/features_sharedata_header.png) no-repeat 0 0;
+	padding:5px 170px 23px 15px;
+	font-size:16px;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+h2.distribute-head {
+	background:url(imgs/features_distribute_header.png) no-repeat 0 0;
+	padding:7px 92px 19px 15px;
+	font-size:16px;
+	color:#fff;
+	text-transform:uppercase;
 }
 
 
@@ -2908,6 +2977,42 @@ a.gpl-license, a.commercial-license, a.contributor-agreement {
 	margin:0px 0px 30px 0;
 }
 
+/*********** Features Page Styles *************/
+
+.last-col {
+	margin-left:20px;
+}
+
+h2.noservers-head {
+	padding:10px 0 23px 15px;
+	font-size:20px;
+}
+
+h2.administrators-head {
+	padding:11px 58px 13px 15px;
+	font-size:14px;
+}
+
+h2.datamanage-head {
+	padding:8px 60px 23px 15px;
+	font-size:14px;
+}
+
+h2.password-head {
+	padding:10px 62px 21px 15px;
+	font-size:14px;
+}
+
+h2.sharedata-head {
+	padding:8px 95px 23px 15px;
+	font-size:14px;
+}
+
+h2.distribute-head {
+	padding:9px 92px 21px 15px;
+	font-size:14px;
+}
+
 /******* Libraries Platform Page Styles ********/
 
 a.moreinfo div {
@@ -3017,6 +3122,8 @@ header {
 .menu ul li a {
 	font-size:12px;
 }
+
+.main-content ul li { font-size:12px;}
 
 /************************ Banner Styles **************************/
 
@@ -3445,6 +3552,45 @@ a.gpl-license, a.commercial-license, a.contributor-agreement {
 
 section .grid-4 {
 	width:100%!important;
+}
+
+/*********** Features Page Styles *************/
+
+.last-col {
+	margin-left:20px;
+}
+
+#platform-features h2 {background-size:160px 39px;}
+
+h2.noservers-head {
+	padding:10px 0 11px 10px;
+	font-size:14px;
+	
+}
+
+h2.administrators-head {
+	padding:4px 11px 8px 10px;
+	font-size:12px;
+}
+
+h2.datamanage-head {
+	padding:2px 60px 0 10px;
+	font-size:12px;
+}
+
+h2.password-head {
+	padding:2px 62px 0px 10px;
+	font-size:12px;
+}
+
+h2.sharedata-head {
+	padding:3px 95px 0px 10px;
+	font-size:12px;
+}
+
+h2.distribute-head {
+	padding:3px 50px 14px 10px;
+	font-size:12px;
 }
 
 /******* Libraries Platform Page Styles ********/
@@ -4199,6 +4345,46 @@ a.moreinfo div {
 .libraries-vault {top:0px;}
 .libraries-vault-manager {top:0px;}
 .libraries-api { top:0px;}
+
+/*********** Features Page Styles *************/
+
+.last-col {
+	margin-left:0px;
+}
+
+
+
+h2.noservers-head {
+	
+}
+
+h2.administrators-head {
+	padding-right:46%;
+	display:block;
+}
+
+h2.datamanage-head {
+	padding-right:46%;
+	display:block;
+
+}
+
+h2.password-head {
+	padding-right:46%;
+	display:block;
+	
+}
+
+h2.sharedata-head {
+	padding-right:46%;
+	display:block;
+}
+
+h2.distribute-head {
+	padding-right:46%;
+	display:block;
+}
+
 
 /*********** License Page Styles *************/
 #licensing .main-content {
