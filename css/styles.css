@@ -3072,35 +3072,42 @@ a.gpl-license, a.commercial-license, a.contributor-agreement {
 	margin-left:20px;
 }
 
+
+#platform-features h2 {
+	background-size:220px 49px;
+}
+
+
 h2.noservers-head {
-	padding:10px 0 23px 15px;
+	padding:8px 0 23px 15px;
 	font-size:20px;
 }
 
 h2.administrators-head {
-	padding:11px 58px 13px 15px;
+	padding:3px 58px 18px 15px;
 	font-size:14px;
 }
 
 h2.datamanage-head {
-	padding:8px 60px 23px 15px;
+	padding:4px 60px 23px 15px;
 	font-size:14px;
 }
 
 h2.password-head {
-	padding:10px 62px 21px 15px;
+	padding:4px 62px 21px 15px;
 	font-size:14px;
 }
 
 h2.sharedata-head {
-	padding:8px 95px 23px 15px;
+	padding:4px 95px 23px 15px;
 	font-size:14px;
 }
 
 h2.distribute-head {
-	padding:9px 92px 21px 15px;
+	padding:4px 92px 21px 15px;
 	font-size:14px;
 }
+
 
 /******* Libraries Platform Page Styles ********/
 
@@ -3696,37 +3703,38 @@ section .grid-4 {
 	margin-left:20px;
 }
 
-#platform-features h2 {background-size:160px 39px;}
+#platform-features h2 {
+	background-size:160px 39px;
+}
 
 h2.noservers-head {
 	padding:10px 0 11px 10px;
-	font-size:14px;
-	
+	font-size:14px;	
 }
 
 h2.administrators-head {
 	padding:4px 11px 8px 10px;
-	font-size:12px;
+	font-size:11px;
 }
 
 h2.datamanage-head {
 	padding:2px 60px 0 10px;
-	font-size:12px;
+	font-size:11px;
 }
 
 h2.password-head {
 	padding:2px 62px 0px 10px;
-	font-size:12px;
+	font-size:11px;
 }
 
 h2.sharedata-head {
 	padding:3px 95px 0px 10px;
-	font-size:12px;
+	font-size:11px;
 }
 
 h2.distribute-head {
 	padding:3px 50px 14px 10px;
-	font-size:12px;
+	font-size:11px;
 }
 
 /******* Libraries Platform Page Styles ********/
