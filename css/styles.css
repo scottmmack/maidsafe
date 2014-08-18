@@ -724,13 +724,63 @@ Sidebar Styles
 *******************************************************************************/
 
 .sidebar { float:right; /*width:156px!important;*/}
-.sidebar img {margin:10px 0;}
+.sidebar img {
+	margin:10px 0;
+}
+
+a.visit-blog {
+	background:url(imgs/sidebar_blog.png) no-repeat top left;
+	display:block;
+	width:156px;
+	height:88px;
+	margin:10px 0;
+}
+
+a.visit-blog:hover {
+	background-position:bottom left;
+}
+
+a.maidsafe-dev {
+	background:url(imgs/sidebar_maidsafe_dev.png) no-repeat top left;
+	display:block;
+	width:156px;
+	height:46px;
+	margin:10px 0;
+	
+}
+a.maidsafe-dev:hover {
+	background-position:bottom left;
+}
+
+a.maidsafe-org {
+	background:url(imgs/sidebar_maidsafe_org.png) no-repeat top left;
+	display:block;
+	width:156px;
+	height:48px;
+	margin:10px 0;
+}
+a.maidsafe-org:hover {
+	background-position:bottom left;
+}
+
+a.mumble {
+	background:url(imgs/sidebar_mumble.png) no-repeat top left;
+	width:156px;
+	height:118px;
+	display:block;
+	margin:10px 0;
+}
+a.mumble:hover {
+	background-position:bottom left;
+}
+
 .sidebar p {
 	font-family: 'OpenSansLight', Arial, sans-serif;
 	color:#5593D7;
 	text-align:center;
 	font-size:18px;
 	margin-bottom:0px;
+	padding:0px!important;
 }
 
 .sidebar .divider {
@@ -1014,7 +1064,7 @@ p {
 Platform Page Styles
 
 *******************************************************************************/
-#platform-libraries .main-content h2 { margin-top:10px!important;}
+#platform-libraries .main-content h2 { margin-top:5px!important;}
 
 #platform-features h2 {
 	font-family: 'OpenSansRegular', Arial, sans-serif;
@@ -1023,7 +1073,7 @@ Platform Page Styles
 #platform-libraries section {
 	background:url(imgs/content_divider.png) repeat-x bottom center;
 	padding-bottom:5px;
-	margin-bottom:25px;
+	margin-bottom:10px;
 }
 
 #platform-libraries h2 {
@@ -1049,7 +1099,7 @@ a.moreinfo {
 }
 
 a.moreinfo:hover:after {
-	background:#CBE1F4;
+	background: #4679BD;
 }
 
 a.moreinfo:after {
@@ -1058,7 +1108,7 @@ a.moreinfo:after {
     width: 100%;
     height:0;
     padding-bottom: 100%;
-    background: #4679BD;
+	background:#CBE1F4;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -1071,10 +1121,10 @@ a.moreinfo div {
     line-height: 15px;
     margin-top: -14px!important;
     text-align:center;
-    color:white;
+    color:#5593D7;
 }
 
-a.moreinfo div:hover {color:#5593D7;}
+a.moreinfo div:hover {color:white;}
 
 .libraries-maidsafe { position:relative; top:50px;}
 .libraries-common { position:relative; top:6px;}
@@ -1171,7 +1221,7 @@ a.last-button {
 
 #core-developer .app-stack {
 	background:url(imgs/arrows-stack-diagram.png) no-repeat;
-	background-position:330px 700px;
+	background-position:330px 720px;
 }
 
 
@@ -1188,30 +1238,40 @@ Get Involved Page Styles
 .farmers-text img {
 	display:inline-block;
 	float:left;
-	margin:5px 30px 25px 0;
+	margin:35px 30px 25px 0;
+	width:48px;
+	height:37px;
 }
 
 .app-builders-text img {
 	display:inline-block;
 	float:left;
-	margin:5px 30px 55px 0;
+	margin:30px 30px 55px 0;
+	width:48px;
+	height:37px;
 }
 
 .core-developers-text img {
 	display:inline-block;
 	float:left;
-	margin:5px 38px 40px 8px;
+	margin:10px 38px 40px 8px;
+	width:40px;
+	height:40px;
 }
 
 .app-builders-text {
-	padding:0;
 	clear:both;
 }
 
 .core-developers-text {
-	padding:0;
 	clear:both;
 }
+
+#get-involved p {
+	padding:0 40px 0 0;
+}
+
+
 
 /*******************************************************************************
 
@@ -1273,6 +1333,10 @@ Features Page Styles
 
 *******************************************************************************/
 
+#platform-features .main-content .grid-4 {
+	margin-left:0px;
+}
+
 #platform-features .main-content ul li {
 	text-indent:0px;
 	padding-left:0px;
@@ -1287,7 +1351,7 @@ Features Page Styles
 }
 
 .last-col {
-	margin-left:50px;
+	margin-left:50px!important;
 }
 
 h2.noservers-head {
@@ -2876,6 +2940,31 @@ p.alpha-testers {
 	background-size:100px 10px;
 }
 
+a.visit-blog {
+	width:102px;
+	height:58px;
+	background-size:102px 116px;
+
+}
+
+a.maidsafe-dev {
+	width:102px;
+	height:30px;
+	background-size:102px 60px;
+}
+
+a.maidsafe-org {
+	width:102px;
+	height:31px;
+	background-size:102px 62px;
+}
+
+a.mumble {
+	width:102px;
+	height:77px;
+	background-size:102px 154px; 
+}
+
 /*********** Developers Page **************/
 
 a.get-started-button {
@@ -2935,16 +3024,19 @@ a.light-button-full {
 .farmers-text img {
 	width:46px;
 	height:35px;
+	margin:65px 30px 55px 0;
 }
 
 .app-builders-text img {
 	width:46px;
 	height:36px;
+	margin:50px 30px 55px 0;
 }
 
 .core-developers-text img {
 	width:40px;
 	height:40px;
+	margin:33px 25px 40px 8px;
 }
 
 
@@ -3460,6 +3552,31 @@ ul.leftnav li ul li a {
 	padding-top:15px;
 	padding-bottom:5px;
 }
+a.visit-blog {
+	width:70px;
+	height:39px;
+	background-size:70px 78px;
+
+}
+
+a.maidsafe-dev {
+	width:70px;
+	height:21px;
+	background-size:70px 42px;
+}
+
+a.maidsafe-org {
+	width:70px;
+	height:22px;
+	background-size:70px 44px;
+}
+
+a.mumble {
+	width:70px;
+	height:53px;
+	background-size:70px 106px; 
+}
+
 
 /*********** Developers Page **************/
 
@@ -3517,16 +3634,19 @@ a.light-button-full {
 .farmers-text img {
 	width:46px;
 	height:35px;
+	margin:75px 30px 75px 0;
 }
 
 .app-builders-text img {
 	width:46px;
 	height:36px;
+	margin:60px 30px 55px 0;
 }
 
 .core-developers-text img {
 	width:40px;
 	height:40px;
+	margin:40px 30px 75px 0;
 }
 
 /********* Documents Page ************/
@@ -4056,6 +4176,23 @@ a.menu-link {
 .community-text {
 	padding-top:15px;
 	padding-bottom:5px;
+}
+
+a.visit-blog {
+	margin:10px auto;
+
+}
+
+a.maidsafe-dev {
+	margin:10px auto;
+}
+
+a.maidsafe-org {
+	margin:10px auto;
+}
+
+a.mumble {
+	margin:10px auto;
 }
 
 /************************ Banner Styles **************************/
