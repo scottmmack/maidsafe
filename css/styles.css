@@ -1183,6 +1183,7 @@ Get Involved Page Styles
 
 .farmers-text {
 	padding:0;
+	clear:both;
 }
 .farmers-text img {
 	display:inline-block;
@@ -1204,10 +1205,12 @@ Get Involved Page Styles
 
 .app-builders-text {
 	padding:0;
+	clear:both;
 }
 
 .core-developers-text {
 	padding:0;
+	clear:both;
 }
 
 /*******************************************************************************
@@ -1219,6 +1222,7 @@ Farmers Page Styles
 .por-diagram {
 	margin: 0 auto;
 	display:block;
+	float:right;
 }
 
 /*******************************************************************************
@@ -2928,6 +2932,22 @@ a.light-button-full {
 	padding:20px;
 }
 
+.farmers-text img {
+	width:46px;
+	height:35px;
+}
+
+.app-builders-text img {
+	width:46px;
+	height:36px;
+}
+
+.core-developers-text img {
+	width:40px;
+	height:40px;
+}
+
+
 /*********** Documents Page ***************/
 
 .doc-box-papers-publications {
@@ -3487,8 +3507,25 @@ a.light-button-full {
 	padding:20px;
 }
 
+.farmers-text img {
+	width:46px;
+	height:35px;
+}
+
+.app-builders-text img {
+	width:46px;
+	height:36px;
+}
+
+.core-developers-text img {
+	width:40px;
+	height:40px;
+}
+
+/********* Documents Page ************/
+
 .doc-box-papers-publications {
-    height: 717px;
+    height: 701px;
 }
 
 .doc-box-examples a,
